@@ -1,0 +1,92 @@
+.screen_example {
+  top: 190px;
+  z-index: -48;
+}
+
+.screen_example,
+.screen_one,
+.screen_one p,
+.screen_two,
+.screen_two p,
+.screen_two .dial_large,
+.ellipse,
+.oak {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Screen 1 */
+
+.screen_one {
+  top: 410px;
+  z-index: 1;
+}
+
+.screen_one p {
+  width: 250px;
+  left: 47%;
+  top: 15px;
+  color: #000;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.screen_one .red_arrow {
+  position: absolute;
+  left: 85%;
+  top: 45px;
+}
+
+.screen_one .ellipse {
+  top: -25px;
+  z-index: -1;
+}
+
+.screen_one .oak {
+  top: -163px;
+  z-index: -1;
+}
+
+/* .screen_one {
+  visibility: hidden;
+} */
+
+/* Screen 2 */
+
+.screen_two .dial_large {
+  top: 355px;
+}
+
+.screen_two p {
+  color: #000;
+  font-size: 20px;
+  top: 365px;
+  width: 250px;
+  line-height: 20px;
+  left: 47%;
+}
+
+.screen_two .red_arrow {
+    position: absolute;
+    left: 160%;
+    top: 455px;
+  }
+
+  .screen_two .ellipse {
+    top: 370px;
+    left: 130%;
+    z-index: -1;
+  }
+
+  .screen_two .oak {
+    left: 160%;
+    top: 235px;
+    z-index: -1;
+  }
+
+
+
+.screen_two {
+    visibility: hidden;
+}

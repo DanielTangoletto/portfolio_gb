@@ -1,0 +1,29 @@
+.homepage {
+  position: relative;
+  color: white;
+  height: 100vh;
+}
+
+header {
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  transform: translate(-50%);
+  font-size: 20px;
+  color: var(--text-color-one);
+}
+
+li img {
+  margin: 0 3px;
+  visibility: hidden;
+}
+
+.homepage ul {
+  display: flex;
+  gap: 30px;
+}
+
+.homepage li:hover {
+  color: white;
+  cursor: pointer;
+}

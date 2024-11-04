@@ -1,0 +1,21 @@
+.socials {
+  position: relative;
+  left: 50%;
+  top: 720px;
+  transform: translateX(-50%);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+footer img {
+  opacity: 50%;
+}
+
+footer img:hover {
+  opacity: 100%;
+  cursor: pointer;
+}

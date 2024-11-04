@@ -1,0 +1,28 @@
+@import "./assets/fonts/Pokemon_Pixel_Font_Regular/stylesheet.css";
+@import "./pages/Homepage/Homepage.css";
+@import "./components/Gameboy/Gameboy.css";
+@import "./components/Socials/Socials.css";
+@import "./components/GBPlayer/GBPlayer.css";
+@import "./components/GBScreen/GBScreen.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration-line: none;
+  list-style-type: none;
+}
+
+:root {
+  --text-color-one: #717171;
+  --text-color-two: #101010;
+  --bg-color: #0a0a0a;
+}
+
+body {
+  font-family: "Pokemon Pixel Font Regular";
+  background-color: var(--bg-color);
+  max-width: 1440px;
+  height: 768px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}

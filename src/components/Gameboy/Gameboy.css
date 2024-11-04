@@ -1,0 +1,49 @@
+.gameboy {
+  position: relative;
+}
+
+.bloc_one,
+.bloc_two,
+.bloc_four,
+.a_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bloc_one {
+  z-index: -49;
+  top: 165px;
+  width: 375px;
+  height: 375px;
+  background-color: #000;
+  border-radius: 15px;
+}
+
+.bloc_two {
+  z-index: -50;
+  top: 155px;
+  width: 405px;
+  height: 405px;
+  background-color: #272727;
+  border-radius: 15px;
+}
+
+.bloc_four {
+  top: 510px;
+}
+
+.a_btn {
+  display: flex;
+  align-items: center;
+  color: var(--text-color-one);
+  font-size: 20px;
+  gap: 10px;
+  left: 50%;
+  top: 575px;
+}
+
+#clic_btn {
+  width: 48px;
+  height: 48px;
+}

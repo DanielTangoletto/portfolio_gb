@@ -1,0 +1,30 @@
+.nintendo {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 190px;
+  transform: translateX(-50%);
+  width: 333px;
+  height: 303px;
+  border-radius: 14px;
+}
+
+.nintendo:hover {
+  cursor: pointer;
+}
+
+.white_screen {
+    background-color: #f6f6f6;
+    width: 333px;
+    height: 303px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 190px;
+    transform: translateX(-50%);
+    border-radius: 14px;
+}
+
+.hidden {
+    display: none; /* Masquer l'élément */
+  }
