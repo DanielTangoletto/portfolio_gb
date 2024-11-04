@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_gb/static/css/main.ea6a13b0.css",
-    "main.js": "/portfolio_gb/static/js/main.c89f7c8a.js",
+    "main.css": "/portfolio_gb/static/css/main.16172882.css",
+    "main.js": "/portfolio_gb/static/js/main.c6769a14.js",
     "static/js/453.1c2f7b34.chunk.js": "/portfolio_gb/static/js/453.1c2f7b34.chunk.js",
     "static/media/intro_gb.mp4": "/portfolio_gb/static/media/intro_gb.fd863d0fe51d3a11951e.mp4",
     "static/media/pokemon_pixel_font.svg": "/portfolio_gb/static/media/pokemon_pixel_font.93e0a9e48d4f2793d9cc.svg",
@@ -9,12 +9,12 @@
     "static/media/pokemon_pixel_font.ttf": "/portfolio_gb/static/media/pokemon_pixel_font.13c858824ac1c9203408.ttf",
     "static/media/pokemon_pixel_font.woff": "/portfolio_gb/static/media/pokemon_pixel_font.62a855fa4fd1811c3373.woff",
     "index.html": "/portfolio_gb/index.html",
-    "main.ea6a13b0.css.map": "/portfolio_gb/static/css/main.ea6a13b0.css.map",
-    "main.c89f7c8a.js.map": "/portfolio_gb/static/js/main.c89f7c8a.js.map",
+    "main.16172882.css.map": "/portfolio_gb/static/css/main.16172882.css.map",
+    "main.c6769a14.js.map": "/portfolio_gb/static/js/main.c6769a14.js.map",
     "453.1c2f7b34.chunk.js.map": "/portfolio_gb/static/js/453.1c2f7b34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea6a13b0.css",
-    "static/js/main.c89f7c8a.js"
+    "static/css/main.16172882.css",
+    "static/js/main.c6769a14.js"
   ]
 }
