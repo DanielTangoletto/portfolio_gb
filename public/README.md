@@ -10,3 +10,4 @@ Depuis j'ai voulu crée un site un peu plus propre et un peu plus élaboré que 
 Pour affiner mes connaissances et pratiquer, j'ai souhaité concevoir ce site en React.
 
 **[Nouveau portfolio](https://danieltangoletto.github.io/portfolio_gb/)**
+Toujours en cours de développement.
