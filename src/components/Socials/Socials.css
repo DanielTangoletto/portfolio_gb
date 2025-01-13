@@ -1,5 +1,5 @@
 .socials {
-  position: relative;
+  position: absolute;
   left: 50%;
   top: 720px;
   transform: translateX(-50%);

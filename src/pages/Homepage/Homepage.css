@@ -1,7 +1,16 @@
 .homepage {
   position: relative;
-  color: white;
   height: 100vh;
+}
+
+.gradient_bg {
+  position: absolute;
+  z-index: -60;
+  background: var(--linear-bg-color);
+  left: 0;
+  top: 25vh;
+  width: 100%;
+  height: 75vh;
 }
 
 header {
@@ -9,7 +18,8 @@ header {
   left: 50%;
   top: 120px;
   transform: translate(-50%);
-  font-size: 20px;
+  font-size: 11px;
+  letter-spacing: -1px;
   color: var(--text-color-one);
 }
 
@@ -26,4 +36,13 @@ li img {
 .homepage li:hover {
   color: white;
   cursor: pointer;
+}
+
+@media all and (max-width: 850px) {
+  .homepage ul {
+    gap: 10px;
+  }
+  .homepage li {
+    width: 130px;
+  }
 }

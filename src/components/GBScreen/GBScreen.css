@@ -1,92 +1,326 @@
+/* Visibility test */
+
+/* .screen_one {
+  display: none;
+} 
+
+.screen_two {
+  display: none;
+}
+
+.screen_three {
+  display: none;
+}
+
+.screen_four {
+  display: none;
+}
+
+
+.screen_five {
+  display: none;
+}
+
+.screen_six {
+  display: none;
+} */
+
+/* --------- */
+
 .screen_example {
-  top: 190px;
+  top: -220px;
   z-index: -48;
 }
 
+.screen_example_blue {
+  z-index: -49;
+  top: -220px;
+}
+
 .screen_example,
+.screen_example_blue,
 .screen_one,
 .screen_one p,
+.screen_one .dial_norm,
 .screen_two,
 .screen_two p,
 .screen_two .dial_large,
+.screen_three,
+.screen_three p,
+.screen_three .dial_middle,
+.screen_four,
+.screen_four p,
+.screen_four .dial_xlarge,
+.screen_five,
+.screen_five p,
+.screen_five .dial_norm,
+.screen_six p,
+.screen_six,
 .ellipse,
-.oak {
+.oak,
+.balls {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 
-/* Screen 1 */
+.screen_one:hover,
+.screen_two:hover,
+.screen_three:hover,
+.screen_four:hover,
+.screen_five:hover,
+.screen_six:hover {
+  cursor: pointer;
+}
+
+/* SCREEN 1 */
 
 .screen_one {
   top: 410px;
-  z-index: 1;
+  z-index: 30;
+}
+
+.screen_one .dial_norm {
+  z-index: 30;
 }
 
 .screen_one p {
+  z-index: 31;
   width: 250px;
-  left: 47%;
-  top: 15px;
+  left: -10px;
+  top: 8px;
   color: #000;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: -1px;
 }
 
 .screen_one .red_arrow {
+  z-index: 31;
+  position: absolute;
+  left: 110px;
+  top: 45px;
+}
+
+.screen_one .oak {
+  top: -163px;
+  z-index: 30;
+}
+
+.screen_one .ellipse {
+  top: -25px;
+  z-index: 29;
+}
+
+/* SCREEN 2 */
+
+.screen_two {
+  top: 410px;
+  z-index: 27;
+}
+
+.screen_two .dial_large {
+  z-index: 27;
+  top: -60px;
+}
+
+.screen_two p {
+  z-index: 28;
+  color: #000;
+  font-size: 11px;
+  top: -50px;
+  width: 250px;
+  line-height: 17px;
+  letter-spacing: -1px;
+  left: -5px;
+}
+
+.screen_two .red_arrow {
+  z-index: 28;
+  position: absolute;
+  left: 100px;
+  top: 40px;
+}
+
+.screen_two .ellipse {
+  z-index: 26;
+  top: -80px;
+  left: 75px;
+}
+
+.screen_two .oak {
+  left: 80px;
+  top: -190px;
+  z-index: 26;
+}
+
+.screen_two .logo_leclerc {
+  z-index: 26;
+  position: absolute;
+  top: -200px;
+  left: -130px;
+}
+
+/* SCREEN 3 */
+
+.screen_three {
+  top: 410px;
+  z-index: 24;
+}
+
+.screen_three .dial_middle {
+  z-index: 24;
+  top: -25px;
+}
+
+.screen_three p {
+  z-index: 25;
+  color: #000;
+  font-size: 11px;
+  top: -15px;
+  width: 250px;
+  line-height: 17px;
+  letter-spacing: -1px;
+  left: -9px;
+}
+
+.screen_three .red_arrow {
+  z-index: 25;
+  position: absolute;
+  left: 110px;
+  top: 42px;
+}
+
+.screen_three .ellipse {
+  top: -45px;
+  left: 80px;
+  z-index: 23;
+}
+
+.screen_three .oak {
+  left: 80px;
+  top: -160px;
+  z-index: 23;
+}
+
+.screen_three .logo_oc {
+  z-index: 23;
+  position: absolute;
+  top: -190px;
+  left: -150px;
+}
+
+/* SCREEN 4  */
+
+.screen_four {
+  top: 410px;
+  z-index: 21;
+}
+
+.screen_four .dial_xlarge {
+  z-index: 21;
+  top: -75px;
+}
+
+.screen_four p {
+  z-index: 22;
+  color: #000;
+  font-size: 11px;
+  letter-spacing: -1px;
+  line-height: 17px;
+  top: -65px;
+  width: 250px;
+  left: -8px;
+}
+
+.screen_four .red_arrow {
+  z-index: 22;
+  position: absolute;
+  left: 110px;
+  top: 42px;
+}
+
+.screen_four .oak {
+  z-index: 20;
+  top: -190px;
+}
+
+/* SCREEN 5 */
+
+.screen_five {
+  top: 410px;
+  z-index: 18;
+}
+
+.screen_five .dial_norm {
+  z-index: 18;
+}
+
+.screen_five p {
+  z-index: 18;
+  width: 250px;
+  left: -8px;
+  top: 8px;
+  color: #000;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: -1px;
+}
+
+.screen_five .red_arrow {
+  z-index: 18;
+  position: absolute;
+  left: 110px;
+  top: 45px;
+}
+
+.screen_five .ellipse {
+  top: -25px;
+  z-index: 17;
+}
+
+.screen_five .oak {
+  top: -163px;
+  z-index: 17;
+}
+
+/* SCREEN 6 */
+
+.screen_six {
+  top: 410px;
+  z-index: 15;
+}
+
+.screen_six p {
+  z-index: 15;
+  width: 250px;
+  left: 145px;
+  top: 10px;
+  color: #000;
+  font-size: 11px;
+  line-height: 17px;
+  letter-spacing: -1px;
+}
+
+.screen_six .red_arrow {
+  z-index: 15;
   position: absolute;
   left: 85%;
   top: 45px;
 }
 
-.screen_one .ellipse {
-  top: -25px;
-  z-index: -1;
+.balls {
+  z-index: 15;
+  top: -85px;
+  display: flex;
+  gap: 40px;
 }
 
-.screen_one .oak {
-  top: -163px;
-  z-index: -1;
+.pokeballs {
+  transition: transform 0.3s ease-in-out;
 }
 
-/* .screen_one {
-  visibility: hidden;
-} */
-
-/* Screen 2 */
-
-.screen_two .dial_large {
-  top: 355px;
-}
-
-.screen_two p {
-  color: #000;
-  font-size: 20px;
-  top: 365px;
-  width: 250px;
-  line-height: 20px;
-  left: 47%;
-}
-
-.screen_two .red_arrow {
-    position: absolute;
-    left: 160%;
-    top: 455px;
-  }
-
-  .screen_two .ellipse {
-    top: 370px;
-    left: 130%;
-    z-index: -1;
-  }
-
-  .screen_two .oak {
-    left: 160%;
-    top: 235px;
-    z-index: -1;
-  }
-
-
-
-.screen_two {
-    visibility: hidden;
+.pokeballs:hover {
+  transform: translateY(-15px);
+  cursor: pointer;
 }

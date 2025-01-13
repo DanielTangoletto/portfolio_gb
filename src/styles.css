@@ -1,4 +1,4 @@
-@import "./assets/fonts/Pokemon_Pixel_Font_Regular/stylesheet.css";
+@import "./assets/fonts/pokemon_classic/stylesheet.css";
 @import "./pages/Homepage/Homepage.css";
 @import "./components/Gameboy/Gameboy.css";
 @import "./components/Socials/Socials.css";
@@ -16,13 +16,14 @@
   --text-color-one: #717171;
   --text-color-two: #101010;
   --bg-color: #0a0a0a;
+  --linear-bg-color: linear-gradient(180deg, rgba(135, 183, 255, 0) 0%, rgba(135, 183, 255, 0.1) 100%);
 }
 
 body {
-  font-family: "Pokemon Pixel Font Regular";
-  background-color: var(--bg-color);
+  font-family: "Pokemon Classic";
+  background: var(--bg-color);
+  width: 100%;
   max-width: 1440px;
   height: 768px;
   margin: 0 auto;
-  /* overflow: hidden; */
 }

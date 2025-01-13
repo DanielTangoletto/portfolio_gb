@@ -1,10 +1,10 @@
 .nintendo {
   position: absolute;
-  z-index: 2;
+  z-index: 50;
   left: 50%;
   top: 190px;
   transform: translateX(-50%);
-  width: 333px;
+  width: 332px;
   height: 303px;
   border-radius: 14px;
 }
@@ -18,7 +18,7 @@
     width: 333px;
     height: 303px;
     position: absolute;
-    z-index: 1;
+    z-index: 49;
     left: 50%;
     top: 190px;
     transform: translateX(-50%);
