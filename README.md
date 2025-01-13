@@ -1,4 +1,4 @@
-![website image preview](image.png)
+![image](https://github.com/user-attachments/assets/e069d59d-2d44-4472-8cbd-bc0ff951eff8)
 
 # Portfolio Daniel Tangoletto
 
