@@ -9,5 +9,8 @@ Vous trouverez ici la version précédente de mon **[Portfolio](https://danielta
 Depuis j'ai voulu crée un site un peu plus propre et un peu plus élaboré que ce dernier.
 Pour affiner mes connaissances et pratiquer, j'ai souhaité concevoir ce site en React.
 
+Maquette réalisée par Vincent Rodriguez ('Rmoon') : **[Lien vers Figma](https://www.figma.com/file/fx7dngvBcc482UHNeAiS2E?node-id=0-1&p=f&t=BfNOTR0i3z19NnwC-0&type=design&mode=design&fuid=1280480183928475673)**
+
 **[Nouveau portfolio](https://danieltangoletto.github.io/portfolio_gb/)**
+
 Toujours en cours de développement.
