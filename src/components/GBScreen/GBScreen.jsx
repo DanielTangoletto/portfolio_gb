@@ -84,7 +84,7 @@ function GBScreen() {
         <section className="screen_five" onClick={() => toggleVisibility(4)}>
           <img src={Screen} className="screen_example" alt="screen pokemon intro" />
           <img src={BlocDialogue} className="dial_norm" alt="Bloc Dialogue" />
-          <p>Voyons maintenant les projets que j’ai pu effectuer lors de ma formation.</p>
+          <p>Voyons maintenant les projets que j’ai pu effectuer pendant et après ma formation.</p>
           <img src={RedArrow} className="red_arrow" alt="Red Arrow" />
           <img src={Ellipse} className="ellipse" alt="Ellipse" />
           <img src={Oak} className="oak" alt="Oak GIF" />
@@ -93,15 +93,21 @@ function GBScreen() {
 
       {/* Section 6 */}
       {visibleSections[5] && (
-        <section className="screen_six" onClick={() => toggleVisibility(5)}>
+        <section className="screen_six">
           <img src={ScreenBlue} className="screen_example_blue" alt="screen pokemon intro" />
           <img src={BlocDialogue} className="dial_norm" alt="Bloc Dialogue" />
-          <p>Pour commencer, choisissez un projet à consulter.</p>
+          <p>Choisissez parmi 3 projets à consulter.</p>
           <img src={RedArrow} className="red_arrow" alt="Red Arrow" />
           <div className="balls">
-            <img src={Pokeball} className="pokeballs" alt="icon pokeball" />
-            <img src={Superball} className="pokeballs" alt="icon superball" />
-            <img src={Hyperball} className="pokeballs" alt="icon hyperball" />
+            <a href="https://github.com/DanielTangoletto/booki-starter-code" className="pokeballs" target="_blank" rel="noopener noreferrer">
+              <img src={Pokeball} alt="icon pokeball" />
+            </a>
+            <a href="https://github.com/DanielTangoletto/projet_kasa" className="pokeballs" target="_blank" rel="noopener noreferrer">
+              <img src={Superball} alt="icon superball" />
+            </a>
+            <a href="https://github.com/DanielTangoletto/db_yugioh_fr" className="pokeballs" target="_blank" rel="noopener noreferrer">
+              <img src={Hyperball} alt="icon hyperball" />
+            </a>
           </div>
         </section>
       )}
