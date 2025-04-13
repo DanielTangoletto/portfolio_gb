@@ -1,7 +1,6 @@
 import React from "react";
 import Gameboy from "../../components/Gameboy/Gameboy";
 import Socials from "../../components/Socials/Socials";
-import Arrow from "../../assets/images/Arrow.png";
 
 const Homepage = () => {
   return (
@@ -11,16 +10,15 @@ const Homepage = () => {
         <header>
           <ul>
             <li>
-              <img id="arrow_one" src={Arrow} alt="" />
-              Qui suis-je ?
+              <a href="https://danieltangoletto.github.io/dt_portfolio/" target="blank">1e Portfolio</a>
             </li>
             <li>
-              <img id="arrow_two" src={Arrow} alt="" />
-              Mes projets
+              <a href="https://cvdesignr.com/p/64915e4f39233?hl=fr_FR" target="blank">
+                Voir mon CV
+              </a>
             </li>
             <li>
-              <img id="arrow_three" src={Arrow} alt="" />
-              Me contacter
+              <a href="mailto:daniel.tangoletto@live.fr">Me contacter</a>
             </li>
           </ul>
         </header>
