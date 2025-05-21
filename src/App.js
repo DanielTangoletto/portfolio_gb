@@ -7,11 +7,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/portfolio_gb" element={<Homepage />} />
-        <Route path="/portfolio_gb/about" element={<About />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );
 }
-
 export default App;

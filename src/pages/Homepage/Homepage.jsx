@@ -1,6 +1,7 @@
 import Gameboy from "../../components/Gameboy/Gameboy";
 import PokemonCries from "../../components/PokemonCries/PokemonCries";
 import Socials from "../../components/Socials/Socials";
+import { Link } from "react-router-dom";
 
 const Homepage = () => {
   return (
@@ -10,7 +11,7 @@ const Homepage = () => {
         <header>
           <ul>
             <li>
-              <a href="/portfolio_gb/about">A propos de moi</a>
+              <Link to="/about">A propos de moi</Link>
             </li>
             <li>
               <a href="https://cvdesignr.com/p/64915e4f39233" target="blank">
