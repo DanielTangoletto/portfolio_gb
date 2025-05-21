@@ -10,7 +10,7 @@ const Homepage = () => {
         <header>
           <ul>
             <li>
-              <a href="/portfolio_gb/about">A propos de moi</a>
+              <a href="/about">A propos de moi</a>
             </li>
             <li>
               <a href="https://cvdesignr.com/p/64915e4f39233" target="blank">
