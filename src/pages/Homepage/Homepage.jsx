@@ -1,5 +1,5 @@
-import React from "react";
 import Gameboy from "../../components/Gameboy/Gameboy";
+import PokemonCries from "../../components/PokemonCries/PokemonCries";
 import Socials from "../../components/Socials/Socials";
 
 const Homepage = () => {
@@ -10,10 +10,10 @@ const Homepage = () => {
         <header>
           <ul>
             <li>
-              <a href="https://danieltangoletto.github.io/dt_portfolio/" target="blank">1e Portfolio</a>
+              <a href="/portfolio_gb/about">A propos de moi</a>
             </li>
             <li>
-              <a href="https://cvdesignr.com/p/64915e4f39233?hl=fr_FR" target="blank">
+              <a href="https://cvdesignr.com/p/64915e4f39233" target="blank">
                 Voir mon CV
               </a>
             </li>
@@ -23,6 +23,7 @@ const Homepage = () => {
           </ul>
         </header>
         <Gameboy />
+        <PokemonCries />
         <Socials />
       </div>
     </>

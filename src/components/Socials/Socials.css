@@ -1,11 +1,5 @@
-.socials {
-  position: absolute;
-  left: 50%;
-  top: 720px;
-  transform: translateX(-50%);
-}
-
 footer {
+  position: relative;
   display: flex;
   justify-content: center;
   gap: 15px;

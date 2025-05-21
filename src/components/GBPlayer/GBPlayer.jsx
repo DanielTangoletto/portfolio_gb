@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import GBPlayer from "../../assets/videos/intro_gb.mp4";
 
 const GBP = () => {
@@ -32,6 +32,7 @@ const GBP = () => {
 
     const videoElement = videoRef.current;
     if (videoElement) {
+      videoElement.volume = 0.3; // Volume à 30%
       videoElement.addEventListener("click", handleInteraction);
       videoElement.addEventListener("ended", handleVideoEnd);
     }

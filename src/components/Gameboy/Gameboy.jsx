@@ -1,4 +1,3 @@
-import React from "react";
 import GBScreen from "../GBScreen/GBScreen";
 import GBP from "../GBPlayer/GBPlayer";
 import Logo from "../../assets/images/gbasp_logo.png";

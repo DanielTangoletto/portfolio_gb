@@ -1,4 +1,4 @@
-.gameboy {
+main {
   position: relative;
 }
 
@@ -13,7 +13,7 @@
 
 .bloc_one {
   z-index: -49;
-  top: 165px;
+  top: -270px;
   width: 375px;
   height: 375px;
   background-color: #000;
@@ -22,7 +22,7 @@
 
 .bloc_two {
   z-index: -50;
-  top: 155px;
+  top: -280px;
   width: 405px;
   height: 405px;
   background-color: #272727;
@@ -30,18 +30,24 @@
 }
 
 .bloc_four {
-  top: 510px;
+  top: 70px;
 }
 
 .a_btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   color: var(--text-color-one);
   font-size: 11px;
   letter-spacing: -1px;
   gap: 10px;
   left: 50%;
-  top: 575px;
+  top: 130px;
+  margin-top: 10px ;
+}
+
+.a_btn p {
+  width: 250px;
 }
 
 #clic_btn {

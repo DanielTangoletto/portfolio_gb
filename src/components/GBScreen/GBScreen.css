@@ -1,30 +1,3 @@
-/* Visibility test */
-
-/* .screen_one {
-  display: none;
-} 
-
-.screen_two {
-  display: none;
-}
-
-.screen_three {
-  display: none;
-}
-
-.screen_four {
-  display: none;
-}
-
-
-.screen_five {
-  display: none;
-}
-
-.screen_six {
-  display: none;
-} */
-
 /* --------- */
 
 .screen_example {
@@ -76,7 +49,7 @@
 /* SCREEN 1 */
 
 .screen_one {
-  top: 410px;
+  top: -30px;
   z-index: 30;
 }
 
@@ -115,7 +88,7 @@
 /* SCREEN 2 */
 
 .screen_two {
-  top: 410px;
+  top: -30px;
   z-index: 27;
 }
 
@@ -164,7 +137,7 @@
 /* SCREEN 3 */
 
 .screen_three {
-  top: 410px;
+  top: -30px;
   z-index: 24;
 }
 
@@ -213,7 +186,7 @@
 /* SCREEN 4  */
 
 .screen_four {
-  top: 410px;
+  top: -30px;
   z-index: 21;
 }
 
@@ -248,7 +221,7 @@
 /* SCREEN 5 */
 
 .screen_five {
-  top: 410px;
+  top: -30px;
   z-index: 18;
 }
 
@@ -287,7 +260,7 @@
 /* SCREEN 6 */
 
 .screen_six {
-  top: 410px;
+  top: -30px;
   z-index: 15;
 }
 
