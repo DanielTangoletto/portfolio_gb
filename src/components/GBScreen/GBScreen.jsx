@@ -104,7 +104,7 @@ function GBScreen() {
           <img src={RedArrow} className="red_arrow" alt="Red Arrow" />
           <div className="balls">
             <a
-              href="https://danieltangoletto.github.io/booki-starter-code/"
+              href="https://alchemy-project-six.vercel.app/"
               className="pokeballs"
               target="_blank"
               rel="noopener noreferrer"
@@ -112,7 +112,7 @@ function GBScreen() {
               <img src={Pokeball} alt="icon pokeball" />
             </a>
             <a
-              href="https://danieltangoletto.github.io/projet_kasa/"
+              href="https://storytime-seven.vercel.app/"
               className="pokeballs"
               target="_blank"
               rel="noopener noreferrer"
