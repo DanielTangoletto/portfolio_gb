@@ -14,7 +14,11 @@ const Homepage = () => {
               <Link to="/about">A propos de moi</Link>
             </li>
             <li>
-              <a href="https://cvdesignr.com/p/64915e4f39233" target="blank">
+              <a
+                href={process.env.PUBLIC_URL + "/CV.pdf"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Voir mon CV
               </a>
             </li>

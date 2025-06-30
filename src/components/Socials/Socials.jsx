@@ -10,7 +10,7 @@ const Socials = () => {
           <img src={Github} alt="icone github" />
         </a>
         <a
-          href="https://www.linkedin.com/in/daniel-tangoletto-823210215/"
+          href="https://www.linkedin.com/in/danieltangoletto/"
           target="_blank"
           rel="noopener noreferrer"
         >
