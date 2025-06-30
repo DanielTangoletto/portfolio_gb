@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio_gb/static/css/main.fc6750a5.css",
-    "main.js": "/portfolio_gb/static/js/main.5cadb5ba.js",
+    "main.js": "/portfolio_gb/static/js/main.ba5534ce.js",
     "static/media/intro_gb.mp4": "/portfolio_gb/static/media/intro_gb.fd863d0fe51d3a11951e.mp4",
     "static/media/Pokemon Classic.ttf": "/portfolio_gb/static/media/Pokemon Classic.7b405427a72cc3786ceb.ttf",
     "index.html": "/portfolio_gb/index.html",
     "main.fc6750a5.css.map": "/portfolio_gb/static/css/main.fc6750a5.css.map",
-    "main.5cadb5ba.js.map": "/portfolio_gb/static/js/main.5cadb5ba.js.map"
+    "main.ba5534ce.js.map": "/portfolio_gb/static/js/main.ba5534ce.js.map"
   },
   "entrypoints": [
     "static/css/main.fc6750a5.css",
-    "static/js/main.5cadb5ba.js"
+    "static/js/main.ba5534ce.js"
   ]
 }
